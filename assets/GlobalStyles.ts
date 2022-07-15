@@ -1,21 +1,17 @@
-import styled, { createGlobalStyle } from "styled-components";
-// import "@fontsource/open-sans";
+import { createGlobalStyle } from "styled-components";
 import { PropsTheme } from "../theme";
 
 export const GlobalStyle = createGlobalStyle`
- body {
+  body {
+    font-family: 'Open Sans';
     background-color: ${(props: PropsTheme) =>
       props.theme.backgroundColors.default};
-    margin: 0px ;
-    overflow-x: hidden;
+    margin: 0 ;
     padding: 0; 
+    overflow-x: hidden;
   }
-
+  
   html {
     height: unset ;
   }
 `;
-
-// export const FontFace = styled.div`
-//   @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-// `;
