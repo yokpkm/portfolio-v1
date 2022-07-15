@@ -6,7 +6,8 @@ import { TextMenu } from "../../../Text";
 import { StyledDrawer } from "../../../Drawer";
 import { DividerMenu } from "../../../Divider";
 import { StyledSwitch } from "../../../Switch";
-import { animateScroll, Link } from "react-scroll";
+import { Link } from "react-scroll";
+import { animateScroll } from "react-scroll";
 import { ThemeType } from "../../../../utils/constants";
 import { ButtonIcon } from "../../../Button";
 import {

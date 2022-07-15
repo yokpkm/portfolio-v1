@@ -6,7 +6,7 @@ export const TextHeader = styled(Text)`
   font-size: ${(props: PropsTheme) => props.theme.fontSize.header};
   font-weight: 700;
   color: ${(props: PropsTheme) => props.theme.fontColor.default};
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   margin-bottom: 0;
 `;
 
