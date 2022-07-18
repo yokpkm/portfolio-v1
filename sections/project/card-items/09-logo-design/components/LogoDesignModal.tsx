@@ -23,6 +23,7 @@ export const LogoDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
         width={"100%"}
         footer={null}
         closeIcon={<CloseCircleFilled />}
+        destroyOnClose={true}
       >
         <Row justify="center" style={{ marginBottom: 48 }}>
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
