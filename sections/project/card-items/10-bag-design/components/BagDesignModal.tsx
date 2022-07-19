@@ -72,7 +72,7 @@ export const BagDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                 <Row justify={xs && !sm ? "start" : "center"}>
                   <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting .
+                    I designed by drawing and watercolor painting.
                   </TextModal>
                 </Row>
               </Col>
