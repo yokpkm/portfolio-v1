@@ -61,7 +61,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Image
-                    src="/image/card/imgCard01.jpg"
+                    src="/image/card/imgCard08.jpg"
                     preview={false}
                     style={{ borderRadius: 8 }}
                   />
@@ -78,7 +78,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Image
-                    src="/image/modal/01-project/img01.jpg"
+                    src="/image/modal/08-product/img01.jpg"
                     preview={false}
                     style={{ borderRadius: 8 }}
                   />
@@ -94,7 +94,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Image
-                    src="/image/modal/10-bag/img03.jpg"
+                    src="/image/modal/01-thesis/img01.jpg"
                     preview={false}
                     style={{ borderRadius: 8 }}
                   />
