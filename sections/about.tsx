@@ -33,8 +33,8 @@ export const AboutSection: React.FC = () => {
 
             <Row justify="start">
               <TextBody>
-                I'm a UX/UI Designer. My purpose is design useful products for
-                users.
+                I work as a UX/UI Designer. My goal is to design useful products
+                for users.
               </TextBody>
             </Row>
             <Row justify="start" style={{ marginTop: 6 }}>
@@ -45,7 +45,7 @@ export const AboutSection: React.FC = () => {
             </Row>
             <Row justify="start" style={{ marginTop: 6 }}>
               <TextBody>
-                So, I would like to improve my skills for provide a good user
+                So, I'd like to improve my skills for provide a good user
                 experience.
               </TextBody>
             </Row>
