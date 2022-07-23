@@ -27,7 +27,7 @@ export const AppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
         {(xs || sm || md) && !lg ? (
           <>
             <Row align="middle">
-              <TextHeader>Perfume Shop Application</TextHeader>
+              <TextHeader>Perfume Shop App</TextHeader>
             </Row>
             <Row
               align="middle"
@@ -48,7 +48,7 @@ export const AppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               style={{ marginTop: 16, marginBottom: 48 }}
             >
               <Col flex="auto">
-                <TextHeader>Perfume Shop Application</TextHeader>
+                <TextHeader>Perfume Shop App</TextHeader>
               </Col>
               <Col>
                 <StyledTagDesign>App Design</StyledTagDesign>

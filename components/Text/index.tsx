@@ -61,6 +61,7 @@ export const TextContent = styled(Text)`
   color: ${(props: PropsTheme) => props.theme.fontColor.medium};
   letter-spacing: 0.04em;
   margin-bottom: 0;
+  line-height: 22px;
 `;
 
 export const TextDescription = styled(Text)`
@@ -77,4 +78,5 @@ export const TextModal = styled(Text)`
   color: ${(props: PropsTheme) => props.theme.fontColor.medium};
   letter-spacing: 0.04em;
   margin-bottom: 0;
+  line-height: 26px;
 `;

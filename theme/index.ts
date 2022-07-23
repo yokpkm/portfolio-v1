@@ -47,6 +47,9 @@ export interface LightTheme {
     default: string;
     hover: string;
   };
+  cardShadow: {
+    default: string;
+  };
 }
 
 export interface DarkTheme {
@@ -90,6 +93,9 @@ export interface DarkTheme {
   closeColor: {
     default: string;
     hover: string;
+  };
+  cardShadow: {
+    default: string;
   };
 }
 

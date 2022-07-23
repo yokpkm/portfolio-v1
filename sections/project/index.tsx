@@ -44,7 +44,10 @@ export const ProjectSection: React.FC = () => {
           </DividerSection>
           <TextDescription>Some projects that created by me.</TextDescription>
         </Row>
-        <Row gutter={(xs || sm || md) && !lg ? [16, 56] : [64, 64]}>
+        <Row
+          justify="center"
+          gutter={(xs || sm || md) && !lg ? [32, 32] : [48, 48]}
+        >
           <WebAppDesign
             visible={visibleModal01}
             setVisible={setVisibleModal01}

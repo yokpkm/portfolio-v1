@@ -31,7 +31,7 @@ const lightTheme = {
   },
   fontColor: {
     default: "rgba(0, 0, 0, 0.85)",
-    medium: "rgba(0, 0, 0, 0.75)",
+    medium: "rgba(0, 0, 0, 0.65)",
     light: "rgba(0, 0, 0, 0.55)",
     link: "#A38300",
   },
@@ -41,6 +41,9 @@ const lightTheme = {
   closeColor: {
     default: "#AAAAAA",
     hover: "#999999",
+  },
+  cardShadow: {
+    default: "0px 8px 48px rgba(235, 237, 255, 0.8)",
   },
 } as LightTheme;
 

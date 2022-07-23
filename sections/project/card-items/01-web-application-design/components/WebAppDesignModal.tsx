@@ -28,7 +28,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
             {(xs || sm) && !md ? (
               <>
                 <Row align="middle">
-                  <TextHeader>Tracking Progress Web Application</TextHeader>
+                  <TextHeader>Tracking Progress Web App</TextHeader>
                 </Row>
                 <Row
                   align="middle"
@@ -49,7 +49,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                   style={{ marginTop: 16, marginBottom: 48 }}
                 >
                   <Col flex="auto">
-                    <TextHeader>Tracking Progress Web Application</TextHeader>
+                    <TextHeader>Tracking Progress Web App</TextHeader>
                   </Col>
                   <Col>
                     <StyledTagDesign>UI Design</StyledTagDesign>

@@ -31,7 +31,7 @@ const darkTheme = {
   },
   fontColor: {
     default: "rgba(255, 255, 255, 0.9)",
-    medium: "rgba(255, 255, 255, 0.8)",
+    medium: "rgba(255, 255, 255, 0.7)",
     light: "rgba(255, 255, 255, 0.6)",
     link: "#FFEFAD",
   },
@@ -41,6 +41,9 @@ const darkTheme = {
   closeColor: {
     default: "#DDDDDD",
     hover: "#EEEEEE",
+  },
+  cardShadow: {
+    default: "0px 0px 0px rgba(37, 41, 61, 0)",
   },
 } as DarkTheme;
 
