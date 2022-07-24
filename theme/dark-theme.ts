@@ -30,9 +30,9 @@ const darkTheme = {
     header: "1.5rem",
   },
   fontColor: {
-    default: "rgba(255, 255, 255, 0.9)",
-    medium: "rgba(255, 255, 255, 0.7)",
-    light: "rgba(255, 255, 255, 0.6)",
+    default: "rgba(255, 255, 255, 0.95)",
+    medium: "rgba(255, 255, 255, 0.75)",
+    light: "rgba(255, 255, 255, 0.65)",
     link: "#FFEFAD",
   },
   lineColor: {

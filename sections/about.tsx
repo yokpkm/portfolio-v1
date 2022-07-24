@@ -124,30 +124,22 @@ export const AboutSection: React.FC = () => {
               </>
             )}
 
-            <Row gutter={16} justify="start" style={{ marginTop: 48 }}>
+            <Row gutter={[16, 16]} justify="start" style={{ marginTop: 48 }}>
               <Col>
                 <a href="/PremkamonResume.pdf" target="_blank">
                   <ButtonPrimary>View my resume</ButtonPrimary>
                 </a>
               </Col>
-              {xs && !sm ? (
-                <Col span={24} style={{ marginTop: 16 }}>
-                  <Link to="contact" smooth={true} duration={1000} offset={0}>
-                    <ButtonSecondary>Get in touch</ButtonSecondary>
-                  </Link>
-                </Col>
-              ) : (
-                <Col>
-                  <Link
-                    to="contact"
-                    smooth={true}
-                    duration={1000}
-                    onClick={() => animateScroll.scrollToBottom}
-                  >
-                    <ButtonSecondary>Get in touch</ButtonSecondary>
-                  </Link>
-                </Col>
-              )}
+              <Col>
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={1000}
+                  onClick={() => animateScroll.scrollToBottom}
+                >
+                  <ButtonSecondary>Get in touch</ButtonSecondary>
+                </Link>
+              </Col>
             </Row>
           </Col>
         </Row>

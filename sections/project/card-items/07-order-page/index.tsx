@@ -2,6 +2,7 @@ import { Card } from "@nextui-org/react";
 import { Col, Image, Row } from "antd";
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
+import { ButtonMore } from "../../../../components/Button";
 import { StyledTagCoding, StyledTagDesign } from "../../../../components/Tag";
 import { TextContent, TextTitle } from "../../../../components/Text";
 import { DarkTheme, LightTheme } from "../../../../theme";
@@ -20,8 +21,6 @@ export const OrderPage: React.FC<Props> = ({ visible, setVisible }) => {
       <OrderPageModal visible={visible} setVisible={setVisible} />
       <Col xs={22} sm={22} md={11} lg={12} xl={12} xxl={11}>
         <Card
-          isPressable
-          onClick={() => setVisible(true)}
           variant="flat"
           css={{
             background: themeContext.backgroundColors.card,
@@ -45,8 +44,13 @@ export const OrderPage: React.FC<Props> = ({ visible, setVisible }) => {
               <Col>
                 <StyledTagDesign>UI Design</StyledTagDesign>
               </Col>
-              <Col>
+              <Col flex="auto">
                 <StyledTagCoding>Coding</StyledTagCoding>
+              </Col>
+              <Col>
+                <ButtonMore onClick={() => setVisible(true)}>
+                  Read more
+                </ButtonMore>
               </Col>
             </Row>
           </Card.Body>
