@@ -12,7 +12,7 @@ interface Props {
 }
 
 export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
-  const { xs, sm, md, lg } = useBreakpoint();
+  const { xs, sm, md } = useBreakpoint();
 
   return (
     <>
@@ -22,6 +22,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
         width={"100%"}
         footer={null}
         closeIcon={<CloseCircleFilled />}
+        destroyOnClose={true}
       >
         <Row justify="center" style={{ marginBottom: 48 }}>
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
@@ -33,7 +34,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                 <Row
                   align="middle"
                   gutter={8}
-                  style={{ marginTop: 16, marginBottom: 48 }}
+                  style={{ marginTop: 8, marginBottom: 40 }}
                 >
                   <Col>
                     <StyledTagDesign>UI Design</StyledTagDesign>
@@ -46,7 +47,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                   justify="center"
                   align="middle"
                   gutter={8}
-                  style={{ marginTop: 16, marginBottom: 48 }}
+                  style={{ marginTop: 8, marginBottom: 40 }}
                 >
                   <Col flex="auto">
                     <TextHeader>Tracking Progress Web App</TextHeader>
@@ -61,9 +62,9 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Image
-                    src="/image/card/imgCard08.jpg"
+                    src="/image/card/imgCard01.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>
@@ -78,9 +79,9 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Image
-                    src="/image/modal/08-product/img01.jpg"
+                    src="/image/modal/01-thesis/img01.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>
@@ -94,9 +95,36 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Image
-                    src="/image/modal/01-thesis/img01.jpg"
+                    src="/image/modal/01-thesis/img02.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/modal/01-thesis/img03.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/modal/01-thesis/img04.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/modal/01-thesis/img05.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>

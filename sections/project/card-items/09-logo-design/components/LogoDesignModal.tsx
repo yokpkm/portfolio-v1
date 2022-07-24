@@ -65,7 +65,7 @@ export const LogoDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                   <Image
                     src="/image/card/imgCard09.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>

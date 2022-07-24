@@ -64,7 +64,7 @@ export const BagDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                   <Image
                     src="/image/card/imgCard10.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>
@@ -81,7 +81,7 @@ export const BagDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                   <Image
                     src="/image/modal/10-bag/img02.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>
@@ -97,7 +97,7 @@ export const BagDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                   <Image
                     src="/image/modal/10-bag/img03.jpg"
                     preview={false}
-                    style={{ borderRadius: 8 }}
+                    style={{ borderRadius: 16 }}
                   />
                 </Row>
               </Col>

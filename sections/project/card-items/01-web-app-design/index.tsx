@@ -45,7 +45,9 @@ export const WebAppDesign: React.FC<Props> = ({ visible, setVisible }) => {
                 <StyledTagDesign>UI Design</StyledTagDesign>
               </Col>
               <Col>
-                <ButtonMore>Read more</ButtonMore>
+                <ButtonMore onClick={() => setVisible(true)}>
+                  Read more
+                </ButtonMore>
               </Col>
             </Row>
           </Card.Body>

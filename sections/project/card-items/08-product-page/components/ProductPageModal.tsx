@@ -2,8 +2,8 @@ import useBreakpoint from "antd/lib/grid/hooks/useBreakpoint";
 import React from "react";
 import { StyledModal } from "../../../../../components/Modal";
 import { CloseCircleFilled } from "@ant-design/icons";
-import { Col, Row } from "antd";
-import { TextBody, TextHeader } from "../../../../../components/Text";
+import { Col, Image, Row } from "antd";
+import { TextHeader, TextModal } from "../../../../../components/Text";
 import {
   StyledTagCoding,
   StyledTagDesign,
@@ -15,7 +15,7 @@ interface Props {
 }
 
 export const ProductPageModal: React.FC<Props> = ({ visible, setVisible }) => {
-  const { xs, sm, md, lg } = useBreakpoint();
+  const { xs, sm, md } = useBreakpoint();
 
   return (
     <>
@@ -25,56 +25,93 @@ export const ProductPageModal: React.FC<Props> = ({ visible, setVisible }) => {
         width={"100%"}
         footer={null}
         closeIcon={<CloseCircleFilled />}
-        padding={(xs || sm || md) && !lg ? "48px 24px" : "40px 200px"}
+        destroyOnClose={true}
       >
-        {(xs || sm || md) && !lg ? (
-          <>
-            <Row align="middle">
-              <TextHeader>Product Page</TextHeader>
-            </Row>
-            <Row
-              align="middle"
-              gutter={8}
-              style={{ marginTop: 16, marginBottom: 48 }}
-            >
-              <Col>
-                <StyledTagDesign>UI Design</StyledTagDesign>
+        <Row justify="center" style={{ marginBottom: 48 }}>
+          <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
+            {(xs || sm) && !md ? (
+              <>
+                <Row align="middle">
+                  <TextHeader>Product Page</TextHeader>
+                </Row>
+                <Row
+                  align="middle"
+                  gutter={8}
+                  style={{ marginTop: 8, marginBottom: 40 }}
+                >
+                  <Col>
+                    <StyledTagDesign>UI Design</StyledTagDesign>
+                  </Col>
+                  <Col>
+                    <StyledTagCoding>Coding</StyledTagCoding>
+                  </Col>
+                </Row>
+              </>
+            ) : (
+              <>
+                <Row
+                  justify="center"
+                  align="middle"
+                  gutter={8}
+                  style={{ marginTop: 8, marginBottom: 40 }}
+                >
+                  <Col flex="auto">
+                    <TextHeader>Product Page</TextHeader>
+                  </Col>
+                  <Col>
+                    <StyledTagDesign>UI Design</StyledTagDesign>
+                  </Col>
+                  <Col>
+                    <StyledTagCoding>Coding</StyledTagCoding>
+                  </Col>
+                </Row>
+              </>
+            )}
+            <Row gutter={[0, 32]}>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/card/imgCard08.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
               </Col>
-              <Col>
-                <StyledTagCoding>Coding</StyledTagCoding>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>My pattern concept is the greatness.</TextModal>
+                  <TextModal>
+                    I designed by drawing and watercolor painting.
+                  </TextModal>
+                </Row>
               </Col>
-            </Row>
-          </>
-        ) : (
-          <>
-            <Row
-              justify="center"
-              align="middle"
-              gutter={8}
-              style={{ marginTop: 16, marginBottom: 48 }}
-            >
-              <Col flex="auto">
-                <TextHeader>Product Page</TextHeader>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/modal/08-product/img01.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
               </Col>
-              <Col>
-                <StyledTagDesign>UI Design</StyledTagDesign>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/modal/08-product/img02.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
               </Col>
-              <Col>
-                <StyledTagCoding>Coding</StyledTagCoding>
+              <Col span={24}>
+                <Row justify="center">
+                  <Image
+                    src="/image/modal/08-product/img03.jpg"
+                    preview={false}
+                    style={{ borderRadius: 16 }}
+                  />
+                </Row>
               </Col>
-            </Row>
-          </>
-        )}
-        <Row style={{ overflow: "scroll", maxHeight: "100vh" }}>
-          <Col span={24}>
-            <Row justify="center">
-              <TextBody>Image</TextBody>
-            </Row>
-            <Row justify="center">
-              <TextBody>Text 1</TextBody>
-            </Row>
-            <Row justify="center">
-              <TextBody>Text 2</TextBody>
             </Row>
           </Col>
         </Row>
