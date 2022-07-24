@@ -18,7 +18,7 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
   visible,
   setVisible,
 }) => {
-  const { xs, sm, md } = useBreakpoint();
+  const { xs, sm } = useBreakpoint();
 
   return (
     <>
@@ -32,16 +32,12 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
       >
         <Row justify="center" style={{ marginBottom: 48 }}>
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
-            {(xs || sm) && !md ? (
-              <>
-                <Row align="middle">
-                  <TextHeader>Production Order Page</TextHeader>
-                </Row>
-                <Row
-                  align="middle"
-                  gutter={8}
-                  style={{ marginTop: 8, marginBottom: 40 }}
-                >
+            <Row align="middle" gutter={[8, 8]} style={{ marginBottom: 40 }}>
+              <Col flex="auto">
+                <TextHeader>Production Order Page</TextHeader>
+              </Col>
+              <Col>
+                <Row gutter={[8, 16]}>
                   <Col>
                     <StyledTagDesign>UI Design</StyledTagDesign>
                   </Col>
@@ -49,27 +45,8 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
                     <StyledTagCoding>Coding</StyledTagCoding>
                   </Col>
                 </Row>
-              </>
-            ) : (
-              <>
-                <Row
-                  justify="center"
-                  align="middle"
-                  gutter={8}
-                  style={{ marginTop: 8, marginBottom: 40 }}
-                >
-                  <Col flex="auto">
-                    <TextHeader>Production Order Page</TextHeader>
-                  </Col>
-                  <Col>
-                    <StyledTagDesign>UI Design</StyledTagDesign>
-                  </Col>
-                  <Col>
-                    <StyledTagCoding>Coding</StyledTagCoding>
-                  </Col>
-                </Row>
-              </>
-            )}
+              </Col>
+            </Row>
             <Row gutter={[0, 32]}>
               <Col span={24}>
                 <Row justify="center">
