@@ -19,7 +19,7 @@ export const AppDesign: React.FC<Props> = ({ visible, setVisible }) => {
   return (
     <>
       <AppDesignModal visible={visible} setVisible={setVisible} />
-      <Col xs={22} sm={22} md={11} lg={12} xl={12} xxl={11}>
+      <Col xs={22} sm={22} md={12} lg={12} xl={12} xxl={12}>
         <Card
           variant="flat"
           css={{

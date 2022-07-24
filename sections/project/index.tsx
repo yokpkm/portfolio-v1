@@ -46,7 +46,7 @@ export const ProjectSection: React.FC = () => {
         </Row>
         <Row
           justify="center"
-          gutter={(xs || sm || md) && !lg ? [32, 32] : [48, 48]}
+          gutter={(xs || sm || md) && !lg ? [32, 32] : [40, 40]}
         >
           <WebAppDesign
             visible={visibleModal01}

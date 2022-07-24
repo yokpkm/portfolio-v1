@@ -7,8 +7,8 @@ const StyledContainer = styled.div`
 `;
 
 const WrapperContainer = styled.div`
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
 `;
 
 interface Props {

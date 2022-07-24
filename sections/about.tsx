@@ -88,34 +88,34 @@ export const AboutSection: React.FC = () => {
             ) : (
               <>
                 <Row justify="start" gutter={16} style={{ marginTop: 40 }}>
-                  <Col sm={7} md={6} lg={6} xl={5} xxl={4}>
+                  <Col sm={8} md={6} lg={6} xl={5} xxl={4}>
                     <TextDescription>
                       <li>Figma</li>
                     </TextDescription>
                   </Col>
-                  <Col sm={7} md={6} lg={6} xl={5} xxl={4}>
+                  <Col sm={8} md={6} lg={6} xl={5} xxl={4}>
                     <TextDescription>
                       <li>Adobe XD</li>
                     </TextDescription>
                   </Col>
-                  <Col sm={7} md={6} lg={6} xl={5} xxl={4}>
+                  <Col sm={8} md={6} lg={6} xl={5} xxl={4}>
                     <TextDescription>
                       <li>Styled Components</li>
                     </TextDescription>
                   </Col>
                 </Row>
                 <Row justify="start" gutter={16} style={{ marginTop: 8 }}>
-                  <Col sm={7} md={6} lg={6} xl={5} xxl={4}>
+                  <Col sm={8} md={6} lg={6} xl={5} xxl={4}>
                     <TextDescription>
                       <li>React Typescript</li>
                     </TextDescription>
                   </Col>
-                  <Col sm={7} md={6} lg={6} xl={5} xxl={4}>
+                  <Col sm={8} md={6} lg={6} xl={5} xxl={4}>
                     <TextDescription>
                       <li>React Native</li>
                     </TextDescription>
                   </Col>
-                  <Col sm={7} md={6} lg={6} xl={5} xxl={4}>
+                  <Col sm={8} md={6} lg={6} xl={5} xxl={4}>
                     <TextDescription>
                       <li>MongoDB</li>
                     </TextDescription>
