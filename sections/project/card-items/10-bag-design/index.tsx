@@ -34,9 +34,7 @@ export const BagDesign: React.FC<Props> = ({ visible, setVisible }) => {
               <TextTitle>Bag Pattern Design</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>
-                I designed by drawing and watercolor painting.
-              </TextContent>
+              <TextContent>Pattern's concept offers the greatness.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col flex="auto">

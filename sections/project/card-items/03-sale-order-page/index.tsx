@@ -38,7 +38,7 @@ export const SaleOrderPage: React.FC<Props> = ({ visible, setVisible }) => {
               <TextTitle>Sale Order Page</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>Features of sales management.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col>

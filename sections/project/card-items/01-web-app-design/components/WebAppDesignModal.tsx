@@ -28,7 +28,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
             <Row align="middle" gutter={[8, 8]} style={{ marginBottom: 40 }}>
               <Col flex="auto">
-                <TextHeader>Tracking Progress Web Application</TextHeader>
+                <TextHeader>Progress Tracking Web Application</TextHeader>
               </Col>
               <Col>
                 <Row gutter={[8, 16]}>
@@ -50,9 +50,14 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting .
+                    The web application purpose is to track progress of
+                    projects.
+                  </TextModal>
+                </Row>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    It's simple to use and responsive to all platforms.
                   </TextModal>
                 </Row>
               </Col>
@@ -68,7 +73,12 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
                   <TextModal>
-                    Then, take a pattern design to sew by hand on bag.
+                    The teacher must create projects or subjects.
+                  </TextModal>
+                </Row>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    After that, students joined and update the progress.
                   </TextModal>
                 </Row>
               </Col>
@@ -82,6 +92,13 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    Teachers can share information on the news tab.
+                  </TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/01-thesis/img03.jpg"
@@ -91,12 +108,27 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    Students can respond to questionnaire on the files tab.
+                  </TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/01-thesis/img04.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    Students can upload document or media files on the groups
+                    tab.
+                  </TextModal>
                 </Row>
               </Col>
               <Col span={24}>
@@ -111,12 +143,7 @@ export const WebAppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
                   <TextModal>
-                    This bag pattern design made me practice more skills,
-                  </TextModal>
-                </Row>
-                <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>
-                    as creative thinking, drawing, painting and sewing by hand.
+                    Last, they can make appointments on the progress tab.
                   </TextModal>
                 </Row>
               </Col>

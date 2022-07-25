@@ -32,12 +32,12 @@ export const ProductionOrderPage: React.FC<Props> = ({
           }}
         >
           <Card.Image src="/image/card/imgCard04.jpg" />
-          <Card.Body css={{ p: "32px 24px" }}>
+          <Card.Body css={{ p: "28px 24px" }}>
             <Row>
               <TextTitle>Production Order Page</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>Features of manufacturing industry.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col>

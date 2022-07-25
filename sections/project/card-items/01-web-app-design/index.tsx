@@ -31,10 +31,12 @@ export const WebAppDesign: React.FC<Props> = ({ visible, setVisible }) => {
           <Card.Image src="/image/card/imgCard01.jpg" />
           <Card.Body css={{ p: "28px 24px" }}>
             <Row>
-              <TextTitle>Tracking Progress Web Application</TextTitle>
+              <TextTitle>Progress Tracking Web App</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>
+                Web app for tracking progress of project.
+              </TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col flex="auto">

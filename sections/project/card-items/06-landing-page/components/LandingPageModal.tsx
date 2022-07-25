@@ -28,7 +28,7 @@ export const LandingPageModal: React.FC<Props> = ({ visible, setVisible }) => {
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
             <Row align="middle" gutter={[8, 8]} style={{ marginBottom: 40 }}>
               <Col flex="auto">
-                <TextHeader>Landing Page</TextHeader>
+                <TextHeader>Landing Page Design</TextHeader>
               </Col>
               <Col>
                 <Row gutter={[8, 16]}>

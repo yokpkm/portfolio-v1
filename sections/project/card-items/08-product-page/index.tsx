@@ -34,7 +34,7 @@ export const ProductPage: React.FC<Props> = ({ visible, setVisible }) => {
               <TextTitle>Product Page</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>Features of inventory management.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col>

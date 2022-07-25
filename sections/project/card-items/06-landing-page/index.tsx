@@ -31,10 +31,10 @@ export const LandingPage: React.FC<Props> = ({ visible, setVisible }) => {
           <Card.Image src="/image/card/imgCard06.jpg" />
           <Card.Body css={{ p: "28px 24px" }}>
             <Row>
-              <TextTitle>Landing Page</TextTitle>
+              <TextTitle>Landing Page Design</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>Page's design offers glassmorphism UI.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col flex="auto">

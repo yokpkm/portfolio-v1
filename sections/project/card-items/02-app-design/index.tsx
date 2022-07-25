@@ -31,10 +31,10 @@ export const AppDesign: React.FC<Props> = ({ visible, setVisible }) => {
           <Card.Image src="/image/card/imgCard02.jpg" />
           <Card.Body css={{ p: "28px 24px" }}>
             <Row>
-              <TextTitle>Perfume Shop Application</TextTitle>
+              <TextTitle>Perfume Shop App Design</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>App's concept offers luxury perfume.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col flex="auto">

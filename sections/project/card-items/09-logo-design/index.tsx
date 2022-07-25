@@ -35,7 +35,7 @@ export const LogoDesign: React.FC<Props> = ({ visible, setVisible }) => {
             </Row>
             <Row style={{ marginTop: 4 }}>
               <TextContent>
-                The concept offers coffee and drinking buffet.
+                Logo's concept offers both coffee and nature.
               </TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>

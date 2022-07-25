@@ -34,7 +34,9 @@ export const FormDesign: React.FC<Props> = ({ visible, setVisible }) => {
               <TextTitle>Login / Register Form</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
-              <TextContent>is simply dummy text of the printing.</TextContent>
+              <TextContent>
+                Travel website's login and registration form.
+              </TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>
               <Col flex="auto">
