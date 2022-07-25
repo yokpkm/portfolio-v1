@@ -1,5 +1,5 @@
 import { Card } from "@nextui-org/react";
-import { Col, Image, Row } from "antd";
+import { Col, Row } from "antd";
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
 import { ButtonMore } from "../../../../components/Button";
@@ -32,12 +32,8 @@ export const SaleOrderPage: React.FC<Props> = ({ visible, setVisible }) => {
             borderRadius: 16,
           }}
         >
-          <Image
-            src="/image/card/imgCard03.jpg"
-            preview={false}
-            style={{ borderRadius: 16 }}
-          />
-          <Card.Body css={{ p: "32px 24px" }}>
+          <Card.Image src="/image/card/imgCard03.jpg" />
+          <Card.Body css={{ p: "28px 24px" }}>
             <Row>
               <TextTitle>Sale Order Page</TextTitle>
             </Row>

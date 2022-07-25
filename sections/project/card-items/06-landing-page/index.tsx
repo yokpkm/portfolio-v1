@@ -1,5 +1,5 @@
 import { Card } from "@nextui-org/react";
-import { Col, Image, Row } from "antd";
+import { Col, Row } from "antd";
 import { useContext } from "react";
 import { ThemeContext } from "styled-components";
 import { ButtonMore } from "../../../../components/Button";
@@ -28,12 +28,8 @@ export const LandingPage: React.FC<Props> = ({ visible, setVisible }) => {
             borderRadius: 16,
           }}
         >
-          <Image
-            src="/image/card/imgCard06.jpg"
-            preview={false}
-            style={{ borderRadius: 16 }}
-          />
-          <Card.Body css={{ p: "32px 24px" }}>
+          <Card.Image src="/image/card/imgCard06.jpg" />
+          <Card.Body css={{ p: "28px 24px" }}>
             <Row>
               <TextTitle>Landing Page</TextTitle>
             </Row>
