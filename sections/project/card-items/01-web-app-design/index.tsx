@@ -31,7 +31,7 @@ export const WebAppDesign: React.FC<Props> = ({ visible, setVisible }) => {
           <Card.Image src="/image/card/imgCard01.jpg" />
           <Card.Body css={{ p: "28px 24px" }}>
             <Row>
-              <TextTitle>Tracking Progress Web App</TextTitle>
+              <TextTitle>Tracking Progress Web Application</TextTitle>
             </Row>
             <Row style={{ marginTop: 4 }}>
               <TextContent>is simply dummy text of the printing.</TextContent>
