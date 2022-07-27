@@ -37,7 +37,7 @@ export const SaleOrderPage: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Sale Order Page</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>Features of sales management.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>

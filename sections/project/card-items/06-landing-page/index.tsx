@@ -33,7 +33,7 @@ export const LandingPage: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Landing Page Design</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>Page's design offers glassmorphism UI.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>

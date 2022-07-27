@@ -9,6 +9,7 @@ import {
   StyledTagDatabase,
   StyledTagDesign,
 } from "../../../../../components/Tag";
+import { WorkingProcedures } from "./WorkingProcedures";
 
 interface Props {
   visible: boolean;
@@ -31,7 +32,7 @@ export const SaleOrderPageModal: React.FC<Props> = ({
         closeIcon={<CloseCircleFilled />}
         destroyOnClose={true}
       >
-        <Row justify="center" style={{ marginBottom: 16 }}>
+        <Row justify="center" style={{ marginBottom: 24 }}>
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
             <Row align="middle" gutter={[8, 8]} style={{ marginBottom: 40 }}>
               <Col flex="auto">
@@ -51,7 +52,7 @@ export const SaleOrderPageModal: React.FC<Props> = ({
                 </Row>
               </Col>
             </Row>
-            <Row gutter={[0, 32]}>
+            <Row gutter={[0, 24]}>
               <Col span={24}>
                 <Row justify="center">
                   <Image
@@ -63,11 +64,13 @@ export const SaleOrderPageModal: React.FC<Props> = ({
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting.
+                    This features for supporting sales management.
                   </TextModal>
                 </Row>
+              </Col>
+              <Col span={24}>
+                <WorkingProcedures />
               </Col>
               <Col span={24}>
                 <Row justify="center">
@@ -76,6 +79,13 @@ export const SaleOrderPageModal: React.FC<Props> = ({
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    The lists that all sale orders are shown.
+                  </TextModal>
                 </Row>
               </Col>
               <Col span={24}>
@@ -88,12 +98,26 @@ export const SaleOrderPageModal: React.FC<Props> = ({
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    The sales order creating and updating form.
+                  </TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/03-sale-order/img03.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    The database design by dbdiagram.io for schema file.
+                  </TextModal>
                 </Row>
               </Col>
             </Row>

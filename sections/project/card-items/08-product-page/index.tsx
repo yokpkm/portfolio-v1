@@ -33,7 +33,7 @@ export const ProductPage: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Product Page</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>Features of inventory management.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>

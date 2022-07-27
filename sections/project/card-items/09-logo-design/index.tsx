@@ -33,7 +33,7 @@ export const LogoDesign: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Coffee Shop Logo Design</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>
                 Logo's concept offers both coffee and nature.
               </TextContent>

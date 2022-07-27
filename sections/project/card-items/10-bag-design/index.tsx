@@ -33,7 +33,7 @@ export const BagDesign: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Bag Pattern Design</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>Pattern's concept offers the greatness.</TextContent>
             </Row>
             <Row gutter={[8, 16]} align="middle" style={{ marginTop: 32 }}>

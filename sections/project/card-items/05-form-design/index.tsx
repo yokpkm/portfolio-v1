@@ -33,7 +33,7 @@ export const FormDesign: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Login / Register Form</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>
                 Travel website's login and registration form.
               </TextContent>

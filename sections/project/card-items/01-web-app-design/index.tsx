@@ -33,7 +33,7 @@ export const WebAppDesign: React.FC<Props> = ({ visible, setVisible }) => {
             <Row>
               <TextTitle>Progress Tracking Web App</TextTitle>
             </Row>
-            <Row style={{ marginTop: 4 }}>
+            <Row style={{ marginTop: 2 }}>
               <TextContent>
                 Web app for tracking progress of project.
               </TextContent>

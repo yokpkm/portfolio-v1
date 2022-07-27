@@ -24,7 +24,7 @@ export const FormDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
         closeIcon={<CloseCircleFilled />}
         destroyOnClose={true}
       >
-        <Row justify="center" style={{ marginBottom: 16 }}>
+        <Row justify="center" style={{ marginBottom: 24 }}>
           <Col xs={20} sm={20} md={16} lg={12} xl={10} xxl={8}>
             <Row align="middle" gutter={[8, 8]} style={{ marginBottom: 40 }}>
               <Col flex="auto">
@@ -38,7 +38,7 @@ export const FormDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
             </Row>
-            <Row gutter={[0, 32]}>
+            <Row gutter={[0, 24]}>
               <Col span={24}>
                 <Row justify="center">
                   <Image
