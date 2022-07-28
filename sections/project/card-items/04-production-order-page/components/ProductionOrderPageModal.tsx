@@ -8,7 +8,7 @@ import {
   StyledTagCoding,
   StyledTagDesign,
 } from "../../../../../components/Tag";
-import { WorkingProcedures } from "./WorkingProcedures";
+import { ProductionOrderProcedures } from "./ProductionOrderProcedures";
 
 interface Props {
   visible: boolean;
@@ -61,12 +61,12 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
                   <TextModal>
-                    This features for supporting sales management.
+                    This features for supporting manufacturing industry.
                   </TextModal>
                 </Row>
               </Col>
               <Col span={24}>
-                <WorkingProcedures />
+                <ProductionOrderProcedures />
               </Col>
               <Col span={24}>
                 <Row justify="center">

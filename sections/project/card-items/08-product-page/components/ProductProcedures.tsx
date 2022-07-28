@@ -3,7 +3,7 @@ import useBreakpoint from "antd/lib/grid/hooks/useBreakpoint";
 import React from "react";
 import { TextModal } from "../../../../../components/Text";
 
-export const WorkingProcedures = () => {
+export const ProductProcedures = () => {
   const { xs, sm } = useBreakpoint();
 
   return (
@@ -13,7 +13,7 @@ export const WorkingProcedures = () => {
           <Row justify={xs && !sm ? "start" : "center"}>
             <Col>
               <Row>
-                <TextModal strong>* Working Procedures:</TextModal>
+                <TextModal strong>* My Procedures:</TextModal>
               </Row>
               <Row>
                 <TextModal>1) Gether requirements and do research.</TextModal>
@@ -21,21 +21,17 @@ export const WorkingProcedures = () => {
               <Row>
                 <TextModal>2) Create prototype in figma.</TextModal>
               </Row>
+
               <Row>
-                <TextModal>
-                  3) Present prototype to user and get the feedback.
-                </TextModal>
+                <TextModal>3) Develop and maintain by developers.</TextModal>
               </Row>
               <Row>
                 <TextModal>
-                  4) Create element components with styled components.
+                  4) Present prototype to user and get the feedback.
                 </TextModal>
               </Row>
               <Row>
-                <TextModal>5) Merge element components by coding.</TextModal>
-              </Row>
-              <Row>
-                <TextModal>6) Design database diagram.</TextModal>
+                <TextModal>5) Improve UI to responsive design.</TextModal>
               </Row>
             </Col>
           </Row>

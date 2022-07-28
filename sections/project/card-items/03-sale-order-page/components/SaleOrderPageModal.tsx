@@ -9,7 +9,7 @@ import {
   StyledTagDatabase,
   StyledTagDesign,
 } from "../../../../../components/Tag";
-import { WorkingProcedures } from "./WorkingProcedures";
+import { SaleOrderProcedures } from "./SaleOrderProcedures";
 
 interface Props {
   visible: boolean;
@@ -70,7 +70,7 @@ export const SaleOrderPageModal: React.FC<Props> = ({
                 </Row>
               </Col>
               <Col span={24}>
-                <WorkingProcedures />
+                <SaleOrderProcedures />
               </Col>
               <Col span={24}>
                 <Row justify="center">

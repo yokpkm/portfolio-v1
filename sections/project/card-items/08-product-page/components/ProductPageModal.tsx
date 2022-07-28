@@ -8,6 +8,7 @@ import {
   StyledTagCoding,
   StyledTagDesign,
 } from "../../../../../components/Tag";
+import { ProductProcedures } from "./ProductProcedures";
 
 interface Props {
   visible: boolean;
@@ -56,11 +57,13 @@ export const ProductPageModal: React.FC<Props> = ({ visible, setVisible }) => {
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting.
+                    This features for supporting inventory management.
                   </TextModal>
                 </Row>
+              </Col>
+              <Col span={24}>
+                <ProductProcedures />
               </Col>
               <Col span={24}>
                 <Row justify="center">
@@ -69,6 +72,11 @@ export const ProductPageModal: React.FC<Props> = ({ visible, setVisible }) => {
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>The page that displays product details.</TextModal>
                 </Row>
               </Col>
               <Col span={24}>
@@ -81,12 +89,22 @@ export const ProductPageModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>The lists that all products are shown.</TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/08-product/img03.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>The product creating and updating form.</TextModal>
                 </Row>
               </Col>
             </Row>

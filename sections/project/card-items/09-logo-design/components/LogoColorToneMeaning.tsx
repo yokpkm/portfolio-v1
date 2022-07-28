@@ -8,7 +8,7 @@ export const ColorTone = styled.div`
   height: 28px;
 `;
 
-export const ColorToneMeaning = () => {
+export const LogoColorToneMeaning = () => {
   return (
     <Row justify="center">
       <Col span={24}>

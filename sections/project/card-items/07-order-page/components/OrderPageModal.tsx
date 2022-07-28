@@ -8,6 +8,7 @@ import {
   StyledTagCoding,
   StyledTagDesign,
 } from "../../../../../components/Tag";
+import { OrderProcedures } from "./OrderProcedures";
 
 interface Props {
   visible: boolean;
@@ -56,11 +57,13 @@ export const OrderPageModal: React.FC<Props> = ({ visible, setVisible }) => {
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting.
+                    This features for supporting order management.
                   </TextModal>
                 </Row>
+              </Col>
+              <Col span={24}>
+                <OrderProcedures />
               </Col>
               <Col span={24}>
                 <Row justify="center">
@@ -69,6 +72,11 @@ export const OrderPageModal: React.FC<Props> = ({ visible, setVisible }) => {
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>The lists that all orders are shown.</TextModal>
                 </Row>
               </Col>
               <Col span={24}>
@@ -81,12 +89,22 @@ export const OrderPageModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal> The page that displays order details.</TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/07-order/img03.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>The order updating form.</TextModal>
                 </Row>
               </Col>
             </Row>

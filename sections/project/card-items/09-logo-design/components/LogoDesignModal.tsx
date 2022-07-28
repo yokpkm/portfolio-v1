@@ -5,7 +5,7 @@ import { CloseCircleFilled } from "@ant-design/icons";
 import { Col, Image, Row } from "antd";
 import { TextHeader, TextModal } from "../../../../../components/Text";
 import { StyledTagDesign } from "../../../../../components/Tag";
-import { ColorToneMeaning } from "./ColorToneMeaning";
+import { LogoColorToneMeaning } from "./LogoColorToneMeaning";
 
 interface Props {
   visible: boolean;
@@ -62,7 +62,7 @@ export const LogoDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               <Col span={24}>
                 <Row justify="center">
                   <Col span={24}>
-                    <ColorToneMeaning />
+                    <LogoColorToneMeaning />
                   </Col>
                 </Row>
               </Col>
