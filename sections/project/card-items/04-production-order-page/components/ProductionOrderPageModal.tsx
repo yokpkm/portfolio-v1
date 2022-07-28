@@ -8,6 +8,7 @@ import {
   StyledTagCoding,
   StyledTagDesign,
 } from "../../../../../components/Tag";
+import { WorkingProcedures } from "./WorkingProcedures";
 
 interface Props {
   visible: boolean;
@@ -59,11 +60,13 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting.
+                    This features for supporting sales management.
                   </TextModal>
                 </Row>
+              </Col>
+              <Col span={24}>
+                <WorkingProcedures />
               </Col>
               <Col span={24}>
                 <Row justify="center">
@@ -72,6 +75,13 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    The lists that all production orders are shown.
+                  </TextModal>
                 </Row>
               </Col>
               <Col span={24}>
@@ -84,12 +94,24 @@ export const ProductionOrderPageModal: React.FC<Props> = ({
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    All QR codes for downloading in production order.
+                  </TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/04-production-order/img03.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>The production order creating form.</TextModal>
                 </Row>
               </Col>
             </Row>
