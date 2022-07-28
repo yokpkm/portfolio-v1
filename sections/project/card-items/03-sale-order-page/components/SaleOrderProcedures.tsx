@@ -19,16 +19,16 @@ export const SaleOrderProcedures = () => {
                 <TextModal>1) Gether requirements and do research.</TextModal>
               </Row>
               <Row>
-                <TextModal>2) Create prototype in figma.</TextModal>
+                <TextModal>2) Create prototypes in Figma.</TextModal>
               </Row>
               <Row>
                 <TextModal>
-                  3) Present prototype to user and get the feedback.
+                  3) Present prototypes to user and get the feedback.
                 </TextModal>
               </Row>
               <Row>
                 <TextModal>
-                  4) Create element components with styled components.
+                  4) Create element components with Styled Components.
                 </TextModal>
               </Row>
               <Row>

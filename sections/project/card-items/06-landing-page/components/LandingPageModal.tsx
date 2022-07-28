@@ -50,9 +50,13 @@ export const LandingPageModal: React.FC<Props> = ({ visible, setVisible }) => {
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting.
+                    Glassmorphism is the concept of my design.
+                  </TextModal>
+                </Row>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    This page presents an overview of all website's features.
                   </TextModal>
                 </Row>
               </Col>
@@ -66,12 +70,26 @@ export const LandingPageModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    I used Figma to create wireframes and prototypes.
+                  </TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/06-landing-page/img02.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    I used unDraw to create illustrations in my landing page.
+                  </TextModal>
                 </Row>
               </Col>
             </Row>

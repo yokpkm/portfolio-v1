@@ -19,7 +19,7 @@ export const OrderProcedures = () => {
                 <TextModal>1) Gether requirements and do research.</TextModal>
               </Row>
               <Row>
-                <TextModal>2) Create prototype in figma.</TextModal>
+                <TextModal>2) Create prototypes in Figma.</TextModal>
               </Row>
 
               <Row>
@@ -27,7 +27,7 @@ export const OrderProcedures = () => {
               </Row>
               <Row>
                 <TextModal>
-                  4) Present prototype to user and get the feedback.
+                  4) Present prototypes to user and get the feedback.
                 </TextModal>
               </Row>
               <Row>
