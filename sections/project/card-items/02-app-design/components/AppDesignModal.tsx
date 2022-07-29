@@ -50,10 +50,12 @@ export const AppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
               </Col>
               <Col span={24}>
                 <Row justify={xs && !sm ? "start" : "center"}>
-                  <TextModal>My pattern concept is the greatness.</TextModal>
                   <TextModal>
-                    I designed by drawing and watercolor painting.
+                    My concept for application is the luxury perfume.
                   </TextModal>
+                </Row>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>I designed this prototype by Figma.</TextModal>
                 </Row>
               </Col>
               <Col span={24}>
@@ -66,12 +68,31 @@ export const AppDesignModal: React.FC<Props> = ({ visible, setVisible }) => {
                 </Row>
               </Col>
               <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    In this App, user can buy products, search the products
+                  </TextModal>
+                </Row>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    and save the collection's favorite products.
+                  </TextModal>
+                </Row>
+              </Col>
+              <Col span={24}>
                 <Row justify="center">
                   <Image
                     src="/image/modal/02-perfume/img02.jpg"
                     preview={false}
                     style={{ borderRadius: 16 }}
                   />
+                </Row>
+              </Col>
+              <Col span={24}>
+                <Row justify={xs && !sm ? "start" : "center"}>
+                  <TextModal>
+                    Also, user can know detail information of the products.
+                  </TextModal>
                 </Row>
               </Col>
             </Row>
