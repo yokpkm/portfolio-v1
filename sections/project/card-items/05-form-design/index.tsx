@@ -31,7 +31,7 @@ export const FormDesign: React.FC<Props> = ({ visible, setVisible }) => {
           <Card.Image src="/image/card/imgCard05.jpg" />
           <Card.Body css={{ p: "28px 24px" }}>
             <Row>
-              <TextTitle>Login / Register Form</TextTitle>
+              <TextTitle>Login / Registration Form</TextTitle>
             </Row>
             <Row style={{ marginTop: 2 }}>
               <TextContent>
