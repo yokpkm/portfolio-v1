@@ -159,7 +159,11 @@ export const NavbarMobile: React.FC<Props> = ({ themeToggle, theme }) => {
         <DividerMenu />
         <Row justify="center" gutter={16} align="middle">
           <Col>
-            <a target={"_blank"} href={"https://github.com/yokpkm"}>
+            <a
+              target={"_blank"}
+              href={"https://github.com/yokpkm"}
+              rel="noreferrer"
+            >
               <ButtonIcon type="link">
                 <GithubFilled />
               </ButtonIcon>
@@ -169,6 +173,7 @@ export const NavbarMobile: React.FC<Props> = ({ themeToggle, theme }) => {
             <a
               target={"_blank"}
               href={"https://www.instagram.com/junepiter26_"}
+              rel="noreferrer"
             >
               <ButtonIcon type="link">
                 <InstagramFilled />
@@ -176,7 +181,11 @@ export const NavbarMobile: React.FC<Props> = ({ themeToggle, theme }) => {
             </a>
           </Col>
           <Col>
-            <a target={"_blank"} href={"https://wwww.facebook.com/yok.pkm"}>
+            <a
+              target={"_blank"}
+              href={"https://wwww.facebook.com/yok.pkm"}
+              rel="noreferrer"
+            >
               <ButtonIcon type="link">
                 <FacebookFilled />
               </ButtonIcon>
@@ -186,6 +195,7 @@ export const NavbarMobile: React.FC<Props> = ({ themeToggle, theme }) => {
             <a
               target={"_blank"}
               href={"https://www.linkedin.com/in/yok-premkamon-343362233"}
+              rel="noreferrer"
             >
               <ButtonIcon type="link">
                 <LinkedinFilled />
