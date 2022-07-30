@@ -8,8 +8,8 @@ const StyledContainer = styled.div`
 `;
 
 const WrapperContainer = styled.div`
-  margin-left: calc(24% - 48px);
-  margin-right: calc(24% - 48px);
+  margin-left: calc(20% - 12px);
+  margin-right: calc(20% - 12px);
 `;
 
 interface Props {
